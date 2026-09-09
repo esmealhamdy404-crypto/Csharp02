@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Assignment02
 {
-    internal class Book
+    //internal class Book
 
-    {
-       public  string Title = "";
-       public int pages;
-    }
+    //{
+    //   public  string Title = "";
+    //   public int pages;
+    //}
 }

@@ -36,19 +36,39 @@
             // Console.WriteLine(book1.GetHashCode());
             // Console.WriteLine(book1.GetType());
             // #endregion
-            try
+            //try
+            //{
+            //    int x = 1;
+            //    int y = 0;
+            //    int z = x/y;
+            //}
+            //catch (DivideByZeroException)
+            //{
+            //    Console.WriteLine("can not divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("DONE");
+            //}
+            int pages = 10;
+            double anotherPages = pages;
+            double price = 49.99;
+            int anotherPrice = (int)price;
+            Console.WriteLine(anotherPrice);
+            String Pagetext = "464";
+            Console.WriteLine(Convert.ToInt16(Pagetext));
+            string yearText = "2023";
+            Console.WriteLine(int.Parse(yearText));
+            string badText = "abc";
+
+            // تعريف المتغير واستخدامه في نفس السطر
+            if (int.TryParse(badText, out var result))
             {
-                int x = 1;
-                int y = 0;
-                int z = x/y;
+                Console.WriteLine($"success convert: {result}");
             }
-            catch (DivideByZeroException)
+            else
             {
-                Console.WriteLine("can not divide by zero");
-            }
-            finally
-            {
-                Console.WriteLine("DONE");
+                Console.WriteLine("fail convet!");
             }
 
 
