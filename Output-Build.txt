@@ -1,0 +1,6 @@
+﻿Build started at 2:41 PM...
+1>------ Build started: Project: Assignment02, Configuration: Debug Any CPU ------
+1>  Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>  Assignment02 -> C:\Users\IT  M\Desktop\c#-basics\.vs\c#-basics.slnx\v18\Assignment02\Assignment02\bin\Debug\net10.0\Assignment02.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 2:41 PM and took 00.541 seconds ==========

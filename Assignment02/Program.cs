@@ -17,12 +17,30 @@
             //Console.WriteLine(variable1.Equals(variable2));
             //#endregion
 
-            #region 3rd question the first in assignment 1
+            //#region 3rd question the first in assignment 1
+            //Book book1 = new Book();
+            //book1.Title = "atomic habbit"; 
+            //book1.pages =300;
+            //Console.WriteLine($"title of book =  {book1.Title} ,num of pages = {book1.pages}");
+
+            //#endregion
+           
+            #region 4rd question the first in assignment 1
+
             Book book1 = new Book();
-            book1.Title = "atomic habbit"; 
-            book1.pages =300;
-            Console.WriteLine($"title of book =  {book1.Title} ,num of pages = {book1.pages}");
+            book1.Title = "atomic habbit";
+            book1.pages = 300;
+           //Console.WriteLine($"title of book =  {book1.Title} ,num of pages = {book1.pages}");
+           Console.WriteLine(book1.ToString());
+            Console.WriteLine(book1.Equals(book1));
+            Console.WriteLine(book1.GetHashCode());
+            Console.WriteLine(book1.GetType());
+
+
             #endregion
+
+
+
 
 
 
