@@ -5,21 +5,36 @@
         static void Main(string[] args)
         {
 
-            #region 1st quetion
-            string title = "clean code";
-            string UpperTitle = title.ToUpper();
-            Console.WriteLine($"title after upper = {UpperTitle}");
-            Console.WriteLine($"title before = {title}");
-            #endregion
-            #region 2nd question
-            string variable1 = "clean code";
-            string variable2 = "clean code";
-            Console.WriteLine(variable1.Equals(variable2));
+            //#region 1st quetion
+            //string title = "clean code";
+            //string UpperTitle = title.ToUpper();
+            //Console.WriteLine($"title after upper = {UpperTitle}");
+            //Console.WriteLine($"title before = {title}");
+            //#endregion
+            //#region 2nd question
+            //string variable1 = "clean code";
+            //string variable2 = "clean code";
+            //Console.WriteLine(variable1.Equals(variable2));
+            //#endregion
 
+            #region 3rd question the first in assignment 1
+            Book book1 = new Book();
+            book1.Title = "atomic habbit"; 
+            book1.pages =300;
+            Console.WriteLine($"title of book =  {book1.Title} ,num of pages = {book1.pages}");
             #endregion
-            #region
-            // 3rd question
-            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
